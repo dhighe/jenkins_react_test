@@ -40,4 +40,5 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 **Change-Log**
 02/11/2020: Editing Readme file to verify Jenkins picking up updates to github. #success
 02/11/2020: Testing stages of Jenkinsfile
-02/12/2020 2:24: Another update to Jenkisfile
+02/12/2020 14:24: Another update to Jenkinsfile
+02/12/2020 15:13: Testing updating repository from seperate computer.
