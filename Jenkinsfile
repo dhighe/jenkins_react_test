@@ -10,21 +10,9 @@ pipeline {
     }
     stages {
         stage('Build') {
-            steps {
-                echo 'npm install'
-            }
+            zip -r C:\Users\Link-Donald\Documents\Javascript\jenkins_react_test.zip C:\Users\Link-Donald\Documents\Javascript\jenkins_react_test
         }
-        stage('Test') {
-            steps {
-                echo 'File used for example test: '
-                echo './jenkins/scripts/test.sh'
-            }
-        }
-        stage('Hello') {
-            steps {
-                echo 'Hello World'
-            }
-        }            
+        
     }
 }
 
