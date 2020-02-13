@@ -29,7 +29,7 @@ pipeline {
 }
 */
 
-node {
+node('node') {
 
    stage('Test'){
     

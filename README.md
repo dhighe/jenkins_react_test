@@ -43,4 +43,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 02/12/2020 14:24 Another update to Jenkinsfile
 02/12/2020 15:13 Testing updating repository from seperate computer
 02/12/2020 15:37 Testing zip file creation when Jenkins detects change/update
-
+02/13/2020 10:24 Quick test of Jenkinsfile after new dependencies added and service restarted
