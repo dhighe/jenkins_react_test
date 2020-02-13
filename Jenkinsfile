@@ -58,11 +58,13 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    writeFile file: "C:/Users/Link-Donald/Documents/Javascript/new_file.txt", text: "Some Text"
-                    //...
-                    String fileText = readFile file: "C:/Users/Link-Donald/Documents/Javascript/new_file.txt"
+                    // writeFile file: "C:/Users/Link-Donald/Documents/Javascript/new_file.txt", text: "Some Text"
+                    // //...
+                    // String fileText = readFile file: "C:/Users/Link-Donald/Documents/Javascript/new_file.txt"
 
-                    zip zipFile: "new_file.zip", archive: false, dir: "C:/Users/Link-Donald/Documents/Javascript/test.js"
+                    zip zipFile: "test.js", archive: false, dir: "C:/Users/Link-Donald/Documents/Javascript/"
+
+                    zip zipFile: "test.zip", archive: false, dir: "C:/Users/Link-Donald/Documents/Javascript/test.js"
                 }
             }
         }
