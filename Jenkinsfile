@@ -27,7 +27,7 @@ pipeline {
         archiveArtifacts artifacts: 'output/*.txt', excludes: 'output/*.md'
     }
 }
-*/
+
 
 node {
 
@@ -48,4 +48,21 @@ node {
     archiveArtifacts artifacts: 'output/*.txt', excludes: 'output/*.md'
  
    }
+}
+
+*/
+
+pipeline {
+    agent any
+    stages {
+        stage('Test') {
+            steps {
+                script {
+                    writeFile file: "C:/Users/Link-Donald/Documents/Javascript/new_file.txt", text: "Some Text"
+                    //...
+                    String fileText = readFile file: "C:/Users/Link-Donald/Documents/Javascript/new_file.txt"
+                }
+            }
+        }
+    }
 }
