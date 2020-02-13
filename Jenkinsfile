@@ -61,6 +61,8 @@ pipeline {
                     writeFile file: "C:/Users/Link-Donald/Documents/Javascript/new_file.txt", text: "Some Text"
                     //...
                     String fileText = readFile file: "C:/Users/Link-Donald/Documents/Javascript/new_file.txt"
+
+                    zip "C:/Users/Link-Donald/Documents/Javascript/new_file.zip" -r "C:/Users/Link-Donald/Documents/Javascript/new_file.txt"
                 }
             }
         }
