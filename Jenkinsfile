@@ -62,7 +62,7 @@ pipeline {
                     // //...
                     // String fileText = readFile file: "C:/Users/Link-Donald/Documents/Javascript/new_file.txt"
 
-                    zip zipFile: "test.zip", archive: false, dir: "C:/Users/Link-Donald/Documents/Javascript/test"
+                    zip zipFile: "C:/Users/Link-Donald/Documents/Javascript/test.zip", archive: false, dir: "C:/Users/Link-Donald/Documents/Javascript/test"
                 }
             }
         }
