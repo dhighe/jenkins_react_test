@@ -37,7 +37,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-**Change-Log**
+**Test-Log**
 02/11/2020 Editing Readme file to verify Jenkins picking up updates to github. #success
 02/11/2020 Testing stages of Jenkinsfile
 02/12/2020 14:24 Another update to Jenkinsfile
@@ -45,3 +45,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 02/12/2020 15:37 Testing zip file creation when Jenkins detects change/update
 02/13/2020 10:24 Quick test of Jenkinsfile after new dependencies added and service restarted
 02/13/2020 11:29 Testing zip file creation of txt file
+02/28/2020 13:42 Update to Readme, testing Jenkinsfile running scripts and logging

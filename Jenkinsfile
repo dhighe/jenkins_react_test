@@ -62,9 +62,21 @@ pipeline {
                     // //...
                     // String fileText = readFile file: "C:/Users/Link-Donald/Documents/Javascript/new_file.txt"
 
-                    zip zipFile: "C:/Users/Link-Donald/Documents/Javascript/test.zip", archive: false, dir: "C:/Users/Link-Donald/Documents/Javascript/test"
+                    zip zipFile: "C:/Users/Link-Donald/Documents/Jenkins Testing/jenkins_react_test.zip", archive: false, dir: "C:/Program Files (x86)/Jenkins/workspace/jenkins_react_test_master"
+                }
+            }
+        }
+        stage('Finalize') {
+            steps {
+                script {
+                    sh "C:/Users/Link-Donald/Documents/simple.sh"
                 }
             }
         }
     }
 }
+
+
+
+
+
