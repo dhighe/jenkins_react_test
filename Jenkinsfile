@@ -13,7 +13,10 @@ pipeline {
         }
         stage('Execute') {
             steps {
-                bash "C:/Users/Link-Donald/Documents/simple.sh"
+                dir ('C:/Users/Link-Donald/Documents/') { 
+                    sh('simple.sh')
+                }
+                // bash "C:/Users/Link-Donald/Documents/simple.sh"
             }
         }
     }
