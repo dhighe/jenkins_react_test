@@ -38,7 +38,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 **Test-Log**
-02/11/2020 Editing Readme file to verify Jenkins picking up updates to github. #success
+02/11/2020 Editing Readme file to verify Jenkins picking up updates to github. 
 02/11/2020 Testing stages of Jenkinsfile
 02/12/2020 14:24 Another update to Jenkinsfile
 02/12/2020 15:13 Testing updating repository from seperate computer
@@ -50,3 +50,5 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 02/28/2020 18:05 Updated permissions on shell script
 03/02/2020 10:55 Random test to start the day
 03/02/2020 14:06 Updating log to be picked up by Jenkins. Updating Jenkinsfile alone is not being detected by Jenkins
+03/02/2020 14:11 Jenkinsfile update was detected. Issue related to how the file was changed. Altered and tested again
+03/02/2020 14:59 Still having issues running script. Attempting again with script in project folder
