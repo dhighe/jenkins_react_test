@@ -49,3 +49,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 02/28/2020 13:42 Update to Readme, testing Jenkinsfile running scripts and logging
 02/28/2020 18:05 Updated permissions on shell script
 03/02/2020 10:55 Random test to start the day
+03/02/2020 14:06 Updating log to be picked up by Jenkins. Updating Jenkinsfile alone is not being detected by Jenkins
