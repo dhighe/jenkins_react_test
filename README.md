@@ -47,3 +47,5 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 02/13/2020 11:29 Testing zip file creation of txt file
 02/14/2020 09:50 Testing current set up on seperate computer  
 02/28/2020 13:42 Update to Readme, testing Jenkinsfile running scripts and logging
+02/28/2020 18:05 Updated permissions on shell script
+03/02/2020 10:55 Random test to start the day
