@@ -55,3 +55,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 03/02/2020 16:36 One more time
 03/02/2020 16:36 Added Git Bash to path, attempting another run
 03/17/2020 10:45 Change to Jenkinsfile to delete contents of target folder before inserting zip
+03/17/2020 11:55 Fix to Jenkinsfile
