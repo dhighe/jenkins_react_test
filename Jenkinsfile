@@ -8,7 +8,7 @@ pipeline {
                 script {
 
                     // find 'C:/Users/Link-Donald/Documents/Jenkins_Testing/' -type f -exec rm {} \;
-                    rm -r C:/Users/Link-Donald/Documents/Jenkins_Testing/*
+                    rm -r {'C:/Users/Link-Donald/Documents/Jenkins_Testing/*'}
 
                }
             }
