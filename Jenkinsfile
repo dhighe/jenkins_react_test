@@ -11,14 +11,14 @@ pipeline {
                 }
             }
         }
-        stage('Execute') {
-            steps {
-                dir ('C:/Users/Link-Donald/Documents/') { 
-                    sh('simple.sh')
-                }
-                // bash "C:/Users/Link-Donald/Documents/simple.sh"
-            }
-        }
+        // stage('Execute') {
+        //     steps {
+        //         dir ('C:/Users/Link-Donald/Documents/') { 
+        //             sh('simple.sh')
+        //         }
+        //         // bash "C:/Users/Link-Donald/Documents/simple.sh"
+        //     }
+        // }
     }
 }
 
